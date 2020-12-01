@@ -53,16 +53,16 @@ public class InformationInput {
 		this.phone = phone;
 	}
 	
-	public void copy(InformationInput temp)
-	{
-		this.address=temp.address;
-		this.first=temp.first;
-		this.last=temp.last;
-		this.city=temp.city;
-		this.state=temp.state;
-		this.zip=temp.zip;
-		this.phone=temp.phone;
-	}
+//	public void copy(InformationInput temp)
+//	{
+//		this.address=temp.address;
+//		this.first=temp.first;
+//		this.last=temp.last;
+//		this.city=temp.city;
+//		this.state=temp.state;
+//		this.zip=temp.zip;
+//		this.phone=temp.phone;
+//	}
 	@Override
 	public String toString() {
 		return "InformationInput [first=" + first + ", last=" + last + ", address=" + address + ", city=" + city
